@@ -16,4 +16,5 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         port: ${{ secrets.PORT }}
         script: |
-                   bash up.sh
+                   bash upmail.sh
+                   
